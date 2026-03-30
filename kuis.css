@@ -1,4 +1,5 @@
 
+
 * {
   margin: 0;
   padding: 0;
@@ -109,7 +110,23 @@ nav .right a span {
   margin-bottom: 100px;
 }
 
-.skills-section h2 {
+.news1.cell {
+  text-align: center;
+  font-size: 35px;
+}
+
+
+.news2.cell {
+  text-align: center;
+  font-size: 35px;
+}
+
+.news3.cell {
+  text-align: center;
+  font-size: 35px;
+}
+
+.news4.cell {
   text-align: center;
   font-size: 35px;
 }
@@ -151,7 +168,7 @@ nav .right a span {
 
 
 
-/* SECTION 4: Contact */
+/* SECTION*/
 .contact-section {
   padding: 0 50px;
   margin-bottom: 100px;
@@ -220,41 +237,7 @@ nav .right a span {
     width: 300px;
   }
 
-  /* SECTION 3: Testimony */
-  .testimony-section {
-    text-align: center;
-  }
-
-  .testimony-section .group {
-    flex-direction: column;
-  }
-
-  /* SECTION 4: Contact */
-  .contact-section .group {
-    flex-direction: column;
-  }
-}
-
-@media (max-width: 600px) {
-  /* NAVBAR */
-  nav {
-    padding: 0 20px;
-  }
-
-  nav .right a {
-    font-size: 22px;
-  }
-
-  nav .right a:last-child {
-    color: var(--text-color);
-    background-color: transparent;
-    padding: 0;
-  }
-
-  nav .right a span {
-    display: none;
-  }
-
+  
   /* SECTION 1: Hero */
   .hero-section {
     padding: 0 20px;
@@ -273,12 +256,12 @@ nav .right a span {
     font-size: 16px;
   }
 
-  /* SECTION 3: Testimony */
-  .testimony-section {
+
+  . {
     padding: 0 20px;
   }
 
-  /* SECTION 4: Contact */
+
   .contact-section {
     padding: 0 20px;
   }
